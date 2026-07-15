@@ -1,0 +1,77 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="140" y1="0" x2="1140" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBD5E1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#94A3B8"/>
+      <stop offset="1" stop-color="#CBD5E1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="blur" x="847" y="27" width="318" height="318" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <style>
+      .floatOne { animation: floatOne 8s ease-in-out infinite; }
+      .floatTwo { animation: floatTwo 10s ease-in-out infinite; }
+      .pulse { animation: pulse 5s ease-in-out infinite; }
+      .draw { stroke-dasharray: 980; stroke-dashoffset: 980; animation: draw 2.4s ease forwards; }
+      @keyframes floatOne {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes floatTwo {
+        0%, 100% { transform: translate(0px, 0px); }
+        50% { transform: translate(10px, -8px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+      @keyframes draw {
+        to { stroke-dashoffset: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1224" height="364" rx="24" fill="white" fill-opacity="0.78" stroke="#E2E8F0"/>
+  <path d="M140 102H1140" stroke="url(#line)" stroke-width="2"/>
+  <path d="M140 318H1140" stroke="url(#line)" stroke-width="2"/>
+
+  <g opacity="0.7">
+    <circle cx="1044" cy="106" r="82" fill="#E0E7FF" class="floatOne"/>
+    <circle cx="1108" cy="214" r="42" fill="#DBEAFE" class="floatTwo"/>
+    <circle cx="958" cy="258" r="22" fill="#E2E8F0" class="pulse"/>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.45">
+    <circle cx="1006" cy="186" r="115" fill="#E0E7FF"/>
+  </g>
+
+  <text x="140" y="160" fill="#0F172A" font-family="'Segoe UI', Arial, sans-serif" font-size="20" letter-spacing="4">DATA ANALYST / PRODUCT ANALYTICS</text>
+  <text x="140" y="220" fill="#111827" font-family="'Segoe UI Semibold', Arial, sans-serif" font-size="56">Kamil Bagdalov</text>
+  <text x="140" y="268" fill="#475569" font-family="'Segoe UI', Arial, sans-serif" font-size="27">Turning raw logs into clean metrics, sharp stories, and useful decisions.</text>
+
+  <g transform="translate(140 305)">
+    <rect width="182" height="38" rx="19" fill="#111827"/>
+    <text x="91" y="24" text-anchor="middle" fill="white" font-family="'Segoe UI', Arial, sans-serif" font-size="16">SQL / Python / EDA</text>
+  </g>
+
+  <g transform="translate(342 305)">
+    <rect width="228" height="38" rx="19" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="114" y="24" text-anchor="middle" fill="#334155" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Funnels / Time Series / Experiments</text>
+  </g>
+
+  <g transform="translate(870 110)">
+    <path class="draw" d="M0 146C56 138 91 66 144 76C196 86 214 174 274 172" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="146" r="9" fill="#111827"/>
+    <circle cx="144" cy="76" r="9" fill="#334155"/>
+    <circle cx="274" cy="172" r="9" fill="#111827"/>
+  </g>
+</svg>
