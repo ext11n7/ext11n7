@@ -18,7 +18,7 @@
   <a href="mailto:bagdalovk@gmail.com">
     <img src="https://img.shields.io/badge/Email-06110d?style=for-the-badge&logo=gmail&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Email" />
   </a>
-  <a href="https://t.me/respectfully001">
+  <a href="https://t.me/respectfully01">
     <img src="https://img.shields.io/badge/Telegram-06110d?style=for-the-badge&logo=telegram&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Telegram" />
   </a>
 </p>
@@ -70,14 +70,8 @@
 - A/B test analysis with clear interpretation instead of just statistical output
 - Time-series exploration, signal cleanup, and business-facing visualization
 
-## GitHub Snapshot
+## Signal Layer
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ext11n7&show_icons=true&include_all_commits=true&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&icon_color=047857&border_radius=12#gh-light-mode-only" alt="GitHub stats light" />
-  <img src="https://github-readme-stats.vercel.app/api?username=ext11n7&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="GitHub stats dark" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ext11n7&layout=compact&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&border_radius=12#gh-light-mode-only" alt="Top languages light" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ext11n7&layout=compact&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&border_radius=12#gh-dark-mode-only" alt="Top languages dark" />
+  <img src="./assets/signal-grid.svg" alt="Animated analytics signal panel" width="100%">
 </p>

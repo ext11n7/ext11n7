@@ -1,0 +1,104 @@
+<svg width="1280" height="240" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated analytics signal panel</title>
+  <desc id="desc">Black and green animated signal panel with scanning beam, moving chart line, and pulsing data nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04110c"/>
+      <stop offset="55%" stop-color="#020403"/>
+      <stop offset="100%" stop-color="#010201"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6ee7b7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#103322" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="240" rx="22" fill="url(#bg)"/>
+  <rect x="10" y="10" width="1260" height="220" rx="18" fill="#020403" stroke="#0f2b1e"/>
+  <rect x="10" y="10" width="1260" height="220" rx="18" fill="url(#grid)" opacity="0.55"/>
+
+  <g opacity="0.85">
+    <path d="M 72 60 H 1208" stroke="#14532d" stroke-width="1.2"/>
+    <path d="M 72 100 H 1208" stroke="#14532d" stroke-width="1.2" opacity="0.7"/>
+    <path d="M 72 140 H 1208" stroke="#14532d" stroke-width="1.2" opacity="0.7"/>
+    <path d="M 72 180 H 1208" stroke="#14532d" stroke-width="1.2"/>
+    <path d="M 72 40 V 196" stroke="#166534" stroke-width="1.5"/>
+  </g>
+
+  <g opacity="0.9">
+    <text x="88" y="48" fill="#6ee7b7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="2.4">LIVE SIGNAL</text>
+    <text x="88" y="214" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" letter-spacing="1.4">PATTERN RECOGNITION / METRICS / CLEAN DECISION FLOW</text>
+    <text x="1188" y="48" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">BLACK / GREEN / CONTROLLED MOTION</text>
+  </g>
+
+  <g opacity="0.78">
+    <rect x="900" y="76" width="20" height="88" rx="4" fill="#052e16"/>
+    <rect x="936" y="92" width="20" height="72" rx="4" fill="#064e3b"/>
+    <rect x="972" y="64" width="20" height="100" rx="4" fill="#065f46"/>
+    <rect x="1008" y="108" width="20" height="56" rx="4" fill="#047857"/>
+    <rect x="1044" y="82" width="20" height="82" rx="4" fill="#059669"/>
+    <rect x="1080" y="54" width="20" height="110" rx="4" fill="#10b981"/>
+    <rect x="1116" y="96" width="20" height="68" rx="4" fill="#34d399"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M 92 156 C 166 156, 190 108, 252 108 C 320 108, 338 170, 412 170 C 492 170, 520 86, 590 86 C 658 86, 684 144, 744 144 C 806 144, 824 118, 884 118" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M 92 156 C 166 156, 190 108, 252 108 C 320 108, 338 170, 412 170 C 492 170, 520 86, 590 86 C 658 86, 684 144, 744 144 C 806 144, 824 118, 884 118;M 92 148 C 168 148, 196 96, 260 96 C 328 96, 350 160, 424 160 C 500 160, 536 96, 604 96 C 666 96, 694 152, 752 152 C 806 152, 834 130, 884 130;M 92 164 C 160 164, 190 122, 248 122 C 316 122, 336 182, 408 182 C 484 182, 516 104, 586 104 C 648 104, 682 134, 744 134 C 808 134, 834 110, 884 110;M 92 156 C 166 156, 190 108, 252 108 C 320 108, 338 170, 412 170 C 492 170, 520 86, 590 86 C 658 86, 684 144, 744 144 C 806 144, 824 118, 884 118"/>
+    </path>
+
+    <circle cx="252" cy="108" r="6" fill="#86efac">
+      <animate attributeName="cy" dur="8s" repeatCount="indefinite" values="108;96;122;108"/>
+      <animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="6;8;6"/>
+    </circle>
+    <circle cx="412" cy="170" r="6" fill="#6ee7b7">
+      <animate attributeName="cy" dur="8s" repeatCount="indefinite" values="170;160;182;170"/>
+      <animate attributeName="r" dur="2s" repeatCount="indefinite" values="6;8;6"/>
+    </circle>
+    <circle cx="590" cy="86" r="6" fill="#bbf7d0">
+      <animate attributeName="cy" dur="8s" repeatCount="indefinite" values="86;96;104;86"/>
+      <animate attributeName="r" dur="1.8s" repeatCount="indefinite" values="6;8;6"/>
+    </circle>
+    <circle cx="744" cy="144" r="6" fill="#6ee7b7">
+      <animate attributeName="cy" dur="8s" repeatCount="indefinite" values="144;152;134;144"/>
+      <animate attributeName="r" dur="2.2s" repeatCount="indefinite" values="6;8;6"/>
+    </circle>
+    <circle cx="884" cy="118" r="6" fill="#86efac">
+      <animate attributeName="cy" dur="8s" repeatCount="indefinite" values="118;130;110;118"/>
+      <animate attributeName="r" dur="2.1s" repeatCount="indefinite" values="6;8;6"/>
+    </circle>
+  </g>
+
+  <rect x="-180" y="24" width="180" height="192" fill="url(#beam)" opacity="0.42">
+    <animate attributeName="x" dur="5.5s" repeatCount="indefinite" values="-180;1280"/>
+  </rect>
+
+  <g opacity="0.75">
+    <circle cx="252" cy="108" r="18" stroke="#22c55e" stroke-width="1.2">
+      <animate attributeName="r" dur="2.8s" repeatCount="indefinite" values="18;28;18"/>
+      <animate attributeName="opacity" dur="2.8s" repeatCount="indefinite" values="0.75;0.1;0.75"/>
+    </circle>
+    <circle cx="590" cy="86" r="18" stroke="#34d399" stroke-width="1.2">
+      <animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="18;30;18"/>
+      <animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.75;0.1;0.75"/>
+    </circle>
+    <circle cx="884" cy="118" r="18" stroke="#6ee7b7" stroke-width="1.2">
+      <animate attributeName="r" dur="2.6s" repeatCount="indefinite" values="18;32;18"/>
+      <animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0.75;0.1;0.75"/>
+    </circle>
+  </g>
+</svg>
