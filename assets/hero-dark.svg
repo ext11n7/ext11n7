@@ -27,21 +27,21 @@
   <rect x="12" y="12" width="1256" height="296" rx="20" fill="#020403" stroke="#0f2b1e"/>
   <rect x="12" y="12" width="1256" height="296" rx="20" fill="url(#grid)" opacity="0.48"/>
 
-  <circle cx="1015" cy="154" r="122" fill="#14532d" opacity="0.16"/>
-  <circle cx="1015" cy="154" r="86" fill="#22c55e" opacity="0.09"/>
+  <circle cx="1022" cy="156" r="122" fill="#14532d" opacity="0.16"/>
+  <circle cx="1022" cy="156" r="86" fill="#22c55e" opacity="0.09"/>
 
   <g opacity="0.9">
-    <text x="74" y="98" fill="#6ee7b7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18" letter-spacing="4">KAMIL BAGDALOV</text>
-    <text x="74" y="150" fill="#d1fae5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="40" font-weight="700">DATA ANALYST</text>
-    <text x="74" y="196" fill="#d1fae5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="40" font-weight="700">PRODUCT THINKING / AI TRACK</text>
-    <text x="74" y="238" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18">SQL / Python / Experiments / Metrics / Time Series</text>
-    <text x="74" y="278" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="2">BUILDING ANALYTICS THAT LOOK CLEAN AND EXPLAIN BUSINESS REALITY</text>
+    <text x="88" y="100" fill="#6ee7b7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18" letter-spacing="4">KAMIL BAGDALOV</text>
+    <text x="88" y="152" fill="#d1fae5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="40" font-weight="700">DATA ANALYST</text>
+    <text x="88" y="198" fill="#d1fae5" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="40" font-weight="700">PRODUCT THINKING / AI TRACK</text>
+    <text x="88" y="236" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18">SQL / Python / Experiments / Metrics / Time Series</text>
+    <text x="88" y="272" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="1.8">BUILDING ANALYTICS THAT LOOK CLEAN AND EXPLAIN BUSINESS REALITY</text>
   </g>
 
   <g opacity="0.92">
-    <path d="M 70 54 H 320" stroke="#166534" stroke-width="2"/>
-    <path d="M 70 291 H 524" stroke="#166534" stroke-width="2"/>
-    <path d="M 70 54 V 291" stroke="#166534" stroke-width="2" opacity="0.55"/>
+    <path d="M 84 60 H 352" stroke="#166534" stroke-width="2"/>
+    <path d="M 84 286 H 560" stroke="#166534" stroke-width="2"/>
+    <path d="M 84 60 V 286" stroke="#166534" stroke-width="2" opacity="0.55"/>
   </g>
 
   <g>
@@ -164,9 +164,9 @@
   </g>
 
   <g opacity="0.7">
-    <text x="1110" y="68" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">ROTATION MATRICES</text>
-    <text x="1110" y="88" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">X / Y / Z AXES</text>
-    <text x="1110" y="252" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">MINIMAL SIGNAL / MAXIMUM CLARITY</text>
-    <text x="1110" y="272" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">BLACK / GREEN PROFESSIONAL PALETTE</text>
+    <text x="1122" y="72" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">ROTATION MATRICES</text>
+    <text x="1122" y="92" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">X / Y / Z AXES</text>
+    <text x="1122" y="248" fill="#4ade80" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">MINIMAL SIGNAL / MAXIMUM CLARITY</text>
+    <text x="1122" y="268" fill="#86efac" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" text-anchor="end">BLACK / GREEN PROFESSIONAL PALETTE</text>
   </g>
 </svg>

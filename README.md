@@ -15,8 +15,18 @@
 </p>
 
 <p align="center">
-  <a href="mailto:bagdalovk@gmail.com">Email</a> /
-  <a href="https://t.me/respectfully001">Telegram</a>
+  <a href="mailto:bagdalovk@gmail.com">
+    <img src="https://img.shields.io/badge/Email-06110d?style=for-the-badge&logo=gmail&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Email" />
+  </a>
+  <a href="https://t.me/respectfully001">
+    <img src="https://img.shields.io/badge/Telegram-06110d?style=for-the-badge&logo=telegram&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Telegram" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Math%20Foundations%20of%20AI-06110d?style=flat-square&logo=openai&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Math Foundations of AI" />
+  <img src="https://img.shields.io/badge/Innopolis%20University-06110d?style=flat-square&logo=googlescholar&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Innopolis University" />
+  <img src="https://img.shields.io/badge/Product%20Analytics%20Track-06110d?style=flat-square&logo=databricks&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Product Analytics Track" />
 </p>
 
 ## Profile
@@ -27,7 +37,17 @@
 
 ## Toolkit
 
-`Python` `SQL` `PostgreSQL` `SQLite` `pandas` `numpy` `matplotlib` `seaborn` `Jupyter`
+<p>
+  <img src="https://img.shields.io/badge/Python-06110d?style=flat-square&logo=python&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-06110d?style=flat-square&logo=postgresql&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="SQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-06110d?style=flat-square&logo=postgresql&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-06110d?style=flat-square&logo=sqlite&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="SQLite" />
+  <img src="https://img.shields.io/badge/pandas-06110d?style=flat-square&logo=pandas&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="pandas" />
+  <img src="https://img.shields.io/badge/numpy-06110d?style=flat-square&logo=numpy&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="numpy" />
+  <img src="https://img.shields.io/badge/matplotlib-06110d?style=flat-square&logo=plotly&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="matplotlib" />
+  <img src="https://img.shields.io/badge/seaborn-06110d?style=flat-square&logo=chartdotjs&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="seaborn" />
+  <img src="https://img.shields.io/badge/Jupyter-06110d?style=flat-square&logo=jupyter&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Jupyter" />
+</p>
 
 ## What I Build
 
@@ -37,27 +57,12 @@
 
 ## Featured Repositories
 
-<p align="center">
-  <a href="https://github.com/ext11n7/sql-product-metrics-playground">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=sql-product-metrics-playground&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&icon_color=047857&border_radius=12#gh-light-mode-only" alt="SQL Product Metrics Playground light" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=sql-product-metrics-playground&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="SQL Product Metrics Playground dark" />
-  </a>
-  <a href="https://github.com/ext11n7/time-series-analysis-lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=time-series-analysis-lab&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&icon_color=047857&border_radius=12#gh-light-mode-only" alt="Time Series Analysis Lab light" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=time-series-analysis-lab&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="Time Series Analysis Lab dark" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ext11n7/ab-test-simulator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=ab-test-simulator&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&icon_color=047857&border_radius=12#gh-light-mode-only" alt="A/B Test Simulator light" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=ab-test-simulator&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="A/B Test Simulator dark" />
-  </a>
-  <a href="https://github.com/ext11n7/Support-Ticket-Router">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=Support-Ticket-Router&hide_border=true&theme=default&bg_color=ffffff&title_color=065f46&text_color=334155&icon_color=047857&border_radius=12#gh-light-mode-only" alt="Support Ticket Router light" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=Support-Ticket-Router&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="Support Ticket Router dark" />
-  </a>
-</p>
+| Repository | What it shows |
+| --- | --- |
+| <a href="https://github.com/ext11n7/sql-product-metrics-playground"><img src="https://img.shields.io/badge/sql--product--metrics--playground-06110d?style=flat-square&logo=github&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="sql-product-metrics-playground" /></a> | Product metrics design, SQL exploration, KPI framing, and business-facing analysis. |
+| <a href="https://github.com/ext11n7/time-series-analysis-lab"><img src="https://img.shields.io/badge/time--series--analysis--lab-06110d?style=flat-square&logo=github&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="time-series-analysis-lab" /></a> | Time-series workflows, signal cleanup, trend reading, and practical forecasting intuition. |
+| <a href="https://github.com/ext11n7/ab-test-simulator"><img src="https://img.shields.io/badge/ab--test--simulator-06110d?style=flat-square&logo=github&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="ab-test-simulator" /></a> | Experiment logic, simulation-based thinking, and clear interpretation of A/B test outcomes. |
+| <a href="https://github.com/ext11n7/Support-Ticket-Router"><img src="https://img.shields.io/badge/Support--Ticket--Router-06110d?style=flat-square&logo=github&logoColor=6ee7b7&labelColor=064e3b&color=06110d" alt="Support-Ticket-Router" /></a> | Applied analytics and automation around routing logic, categorization, and operational decision support. |
 
 ## Focus Areas
 
