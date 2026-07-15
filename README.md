@@ -11,13 +11,29 @@
 </p>
 
 <p align="center">
-  Product-focused data analyst building clear metrics, experiment-driven analysis, and portfolio projects with real business framing.
+  Product-focused data analyst working with SQL, Python, experimentation, and portfolio projects grounded in real business questions.
 </p>
 
 <p align="center">
   <a href="mailto:bagdalovk@gmail.com">Email</a> /
   <a href="https://t.me/respectfully001">Telegram</a>
 </p>
+
+## Profile
+
+- Data analyst focused on product metrics, analytical storytelling, and decisions grounded in signal instead of noise
+- Working across SQL, Python, experimentation, funnel analysis, and time-series workflows
+- Studying Mathematical Foundations of Artificial Intelligence at Innopolis University
+
+## Toolkit
+
+`Python` `SQL` `PostgreSQL` `SQLite` `pandas` `numpy` `matplotlib` `seaborn` `Jupyter`
+
+## What I Build
+
+- Product analytics case studies with KPI trees, funnel logic, retention framing, and experiment readouts
+- Portfolio projects that simulate business questions instead of isolated notebook exercises
+- Analytical workflows that turn messy operational data into concise decisions
 
 ## Featured Repositories
 
@@ -42,6 +58,12 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ext11n7&repo=Support-Ticket-Router&hide_border=true&theme=github_dark&bg_color=0b1512&title_color=6ee7b7&text_color=d1fae5&icon_color=34d399&border_radius=12#gh-dark-mode-only" alt="Support Ticket Router dark" />
   </a>
 </p>
+
+## Focus Areas
+
+- Product metrics, conversion funnels, retention logic, and analytical framing
+- A/B test analysis with clear interpretation instead of just statistical output
+- Time-series exploration, signal cleanup, and business-facing visualization
 
 ## GitHub Snapshot
 
