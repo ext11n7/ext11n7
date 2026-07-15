@@ -1,36 +1,30 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1120"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110D"/>
+      <stop offset="1" stop-color="#0B1512"/>
     </linearGradient>
-    <linearGradient id="line" x1="140" y1="0" x2="1140" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#334155" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#475569"/>
-      <stop offset="1" stop-color="#334155" stop-opacity="0"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="260" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#93C5FD"/>
+    <linearGradient id="line" x1="840" y1="64" x2="1142" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
     </linearGradient>
-    <filter id="blur" x="833" y="16" width="348" height="348" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="26"/>
+    <filter id="blur" x="862" y="36" width="342" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
     </filter>
     <style>
-      .floatOne { animation: floatOne 8s ease-in-out infinite; }
-      .floatTwo { animation: floatTwo 10s ease-in-out infinite; }
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .draw { stroke-dasharray: 980; stroke-dashoffset: 980; animation: draw 2.4s ease forwards; }
-      @keyframes floatOne {
+      .shift { animation: shift 8s ease-in-out infinite; transform-origin: center; }
+      .pulse { animation: pulse 6s ease-in-out infinite; }
+      .draw { stroke-dasharray: 560; stroke-dashoffset: 560; animation: draw 2s ease forwards; }
+      @keyframes shift {
         0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-      }
-      @keyframes floatTwo {
-        0%, 100% { transform: translate(0px, 0px); }
-        50% { transform: translate(10px, -8px); }
+        50% { transform: translateY(-6px); }
       }
       @keyframes pulse {
-        0%, 100% { opacity: 0.72; }
+        0%, 100% { opacity: 0.55; }
         50% { opacity: 1; }
       }
       @keyframes draw {
@@ -39,39 +33,40 @@
     </style>
   </defs>
 
-  <rect width="1280" height="420" rx="32" fill="url(#bg)"/>
-  <rect x="28" y="28" width="1224" height="364" rx="24" fill="#0F172A" fill-opacity="0.74" stroke="#1E293B"/>
-  <path d="M140 102H1140" stroke="url(#line)" stroke-width="2"/>
-  <path d="M140 318H1140" stroke="url(#line)" stroke-width="2"/>
+  <rect width="1280" height="360" rx="32" fill="url(#bg)"/>
+  <rect x="26" y="26" width="1228" height="308" rx="26" fill="#0B1512" stroke="#123126"/>
 
-  <g opacity="0.86">
-    <circle cx="1044" cy="106" r="82" fill="#172554" class="floatOne"/>
-    <circle cx="1108" cy="214" r="42" fill="#1D4ED8" fill-opacity="0.48" class="floatTwo"/>
-    <circle cx="958" cy="258" r="22" fill="#334155" class="pulse"/>
+  <g opacity="0.9">
+    <circle cx="1020" cy="108" r="92" fill="#064E3B" class="shift"/>
+    <circle cx="1110" cy="216" r="48" fill="#047857" class="pulse"/>
   </g>
 
-  <g filter="url(#blur)" opacity="0.52">
-    <circle cx="1006" cy="186" r="122" fill="#1D4ED8"/>
+  <g filter="url(#blur)" opacity="0.5">
+    <ellipse cx="1032" cy="176" rx="116" ry="82" fill="#10B981"/>
   </g>
 
-  <text x="140" y="160" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="20" letter-spacing="4">DATA ANALYST / PRODUCT ANALYTICS</text>
-  <text x="140" y="220" fill="#F8FAFC" font-family="'Segoe UI Semibold', Arial, sans-serif" font-size="56">Kamil Bagdalov</text>
-  <text x="140" y="268" fill="#CBD5E1" font-family="'Segoe UI', Arial, sans-serif" font-size="27">Turning raw logs into clean metrics, sharp stories, and useful decisions.</text>
+  <text x="128" y="132" fill="#6EE7B7" font-family="'Segoe UI', Arial, sans-serif" font-size="18" letter-spacing="4">DATA ANALYST / PRODUCT ANALYTICS</text>
+  <text x="128" y="186" fill="#ECFDF5" font-family="'Segoe UI Semibold', Arial, sans-serif" font-size="54">Kamil Bagdalov</text>
+  <text x="128" y="230" fill="#A7F3D0" font-family="'Segoe UI', Arial, sans-serif" font-size="24">Turning raw logs into metrics, decisions, and product clarity.</text>
 
-  <g transform="translate(140 305)">
-    <rect width="182" height="38" rx="19" fill="#F8FAFC"/>
-    <text x="91" y="24" text-anchor="middle" fill="#0F172A" font-family="'Segoe UI', Arial, sans-serif" font-size="16">SQL / Python / EDA</text>
+  <g transform="translate(128 258)">
+    <rect width="152" height="36" rx="18" fill="#10B981"/>
+    <text x="76" y="23" text-anchor="middle" fill="#03241D" font-family="'Segoe UI', Arial, sans-serif" font-size="15">SQL / Python</text>
   </g>
 
-  <g transform="translate(342 305)">
-    <rect width="228" height="38" rx="19" fill="#111827" stroke="#334155"/>
-    <text x="114" y="24" text-anchor="middle" fill="#CBD5E1" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Funnels / Time Series / Experiments</text>
+  <g transform="translate(296 258)">
+    <rect width="214" height="36" rx="18" fill="#0F231D" stroke="#1F4A3B"/>
+    <text x="107" y="23" text-anchor="middle" fill="#6EE7B7" font-family="'Segoe UI', Arial, sans-serif" font-size="15">Metrics / Funnels / Experiments</text>
   </g>
 
-  <g transform="translate(870 110)">
-    <path class="draw" d="M0 146C56 138 91 66 144 76C196 86 214 174 274 172" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="0" cy="146" r="9" fill="#F8FAFC"/>
-    <circle cx="144" cy="76" r="9" fill="#BFDBFE"/>
-    <circle cx="274" cy="172" r="9" fill="#F8FAFC"/>
+  <g transform="translate(846 94)">
+    <rect x="0" y="0" width="318" height="170" rx="24" fill="#0D1916" stroke="#123126"/>
+    <path class="draw" d="M24 122C62 126 94 98 132 94C168 90 196 54 236 58C258 61 277 82 294 70" stroke="url(#line)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="132" cy="94" r="7" fill="#34D399"/>
+    <circle cx="236" cy="58" r="7" fill="#6EE7B7"/>
+    <circle cx="294" cy="70" r="7" fill="#10B981"/>
+    <text x="24" y="36" fill="#6EE7B7" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="2">FOCUS</text>
+    <text x="24" y="66" fill="#ECFDF5" font-family="'Segoe UI Semibold', Arial, sans-serif" font-size="26">Clear metrics.</text>
+    <text x="24" y="94" fill="#ECFDF5" font-family="'Segoe UI Semibold', Arial, sans-serif" font-size="26">Strong decisions.</text>
   </g>
 </svg>
